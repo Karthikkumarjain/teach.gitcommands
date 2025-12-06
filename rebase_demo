@@ -1,11 +1,17 @@
 update agagin
 rebase
+ALSKDNAKDJasdkjan
+ALSKDNAKDJ
 
 
 modify rebase
+<<<<<<< HEAD
 
 
 change this
 
 
 added one more
+=======
+ALSKDNAKDJ
+>>>>>>> refs/remotes/origin/main
