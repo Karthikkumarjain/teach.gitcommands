@@ -64,4 +64,3 @@ git stash clear --Clear all stashes
  
  git log --oneline is a short, compact version of the Git commit history.
 
-
