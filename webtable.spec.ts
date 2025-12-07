@@ -1,0 +1,1 @@
+console.log("Code for web table");s
