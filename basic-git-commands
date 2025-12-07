@@ -36,7 +36,7 @@ git switch - to switch between branches
 
 
 
-
+##
 #gitignore to ignore the files that we dont want to commit.
 
 git stash takes your current changes, saves them aside, and restores your working directory to a clean state.
