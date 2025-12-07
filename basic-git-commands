@@ -64,4 +64,3 @@ git checkout -b <branch-name> main -- create branch from main via git command
  
  git log --oneline is a short, compact version of the Git commit history.
 
-
