@@ -1,5 +1,67 @@
-just random check
-aaisbd lajnf
-akjf a
-lajnf 
-random commit
+git init - to intialize local storage to git.
+git status - to show all the status of tracked and untracked files
+git restore . - doing this before staging the files - clears and restores the changes in local/working directory to the ones that were available before staging it.
+If we want to restore the staged file --git restore --staged <file>..." to discard changes in working directory
+git add . -- to add files to staging area
+git commit -m "Commit message" - To commit changes to local repository
+
+git push origin main -- here main refers to branch name . This pushes the code changes to git repository
+
+git diff {file name} - -git diff is a Git command used to see the differences between two versions of your code 
+git checkout -b {new_banch_name} - this creates a new branch in the local directory
+
+git branch - lists the number of branches available in local repository
+
+git fetch - downloads the latest changes from a remote repository, but does NOT merge them into your local branch.
+
+git merge - pull the downloaded latest changes from local repo to working local directory ..Add everyone’s work together and leave the story as it happened.
+
+git pull - git fetch + git merge = >it fetches code from remote to local repository and then to local repository
+
+git rebase - Rewrite the story so it looks like you started after the latest main commit.
+
+git branch -a lists all branches in your repository — both local and remote-tracking branches.
+git branch -d branchName - to delete a branch
+to force delete it --git branch -D branchName
+
+git fetch -p - emoves any remote branches that no longer exist on the serve
+
+git switch - to switch between branches
+
+### How to merge from branch to another branch(working directory)
+
+
+@show branch creation fro githu UI and via cli
+@git merge branch name
+
+
+
+
+#gitignore to ignore the files that we dont want to commit.
+
+git stash takes your current changes, saves them aside, and restores your working directory to a clean state.
+
+git stash push -m "My message"
+
+git stash -u - include untracking files
+git stash list
+
+git stash apply --Apply a stash (keep it in stash list)
+git stash pop -- Apply and remove from stash list
+
+git stash drop stash@{0} -Delete a stash
+git stash clear --Clear all stashes
+
+git checkout -b <branch-name> main -- create branch from main via git command
+
+
+#Merge conflicts
+
+
+
+ Branching strategy
+ branching convention
+ 
+ git log --oneline is a short, compact version of the Git commit history.
+
+
