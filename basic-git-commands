@@ -10,6 +10,9 @@ git push origin main -- here main refers to branch name . This pushes the code c
 git diff {file name} - -git diff is a Git command used to see the differences between two versions of your code 
 git checkout -b {new_banch_name} - this creates a new branch in the local directory
 
+git switch branchname - to switch between branches
+git checkout branchname - can be used to switch to another branch
+
 git branch - lists the number of branches available in local repository
 
 git fetch - downloads the latest changes from a remote repository, but does NOT merge them into your local branch.
@@ -26,7 +29,6 @@ to force delete it --git branch -D branchName
 
 git fetch -p - emoves any remote branches that no longer exist on the serve
 
-git switch - to switch between branches
 
 ### How to merge from branch to another branch(working directory)
 
@@ -51,8 +53,6 @@ git stash pop -- Apply and remove from stash list
 
 git stash drop stash@{0} -Delete a stash
 git stash clear --Clear all stashes
-
-git checkout -b <branch-name> main -- create branch from main via git command
 
 
 #Merge conflicts
