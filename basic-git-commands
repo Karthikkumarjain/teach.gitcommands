@@ -26,7 +26,7 @@ git rebase - Rewrite the story so it looks like you started after the latest mai
 git branch -a lists all branches in your repository — both local and remote-tracking branches.
 git branch -d branchName - to delete a branch
 to force delete it --git branch -D branchName
-
+git push origin --delete <branchname> - deletes the branch directly from origin or Git.
 git fetch -p - emoves any remote branches that no longer exist on the serve
 
 
